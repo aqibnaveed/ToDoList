@@ -1,0 +1,80 @@
+body{
+    text-align: center;
+    font-family: 'Cyntho Next', sans-serif;
+    background: radial-gradient(#222222, black);
+}
+
+h1{
+    color: white;
+    font-weight: bold;
+    padding: 3%;
+}
+
+h1:hover{
+    color: yellow;
+    font-style: italic;
+}
+
+.description{
+    color: white;
+}
+
+p{
+    font-size: large;
+}
+
+
+#input{
+    width: 93%;
+    margin-left: 4%;
+    margin-bottom: 8px;
+}
+
+#addItemBtn{
+    height:4%;
+    border: none;
+}
+
+#addItemBtn:hover{
+    background-color:yellow;
+}
+
+ul{
+    color: white;
+}
+
+li{
+    list-style: none;
+    border: white;
+    border-width: 3px;
+    border-radius: 5px;
+    margin-bottom: 3px;
+    background: radial-gradient(#9be0ad, #d1d1d1);
+    width: 99%;
+    margin-left: 0.5%;
+    color: black;
+    text-align: left;	
+    padding-left: 5px;
+}
+
+li:hover{
+    background: white;
+    font-weight: bold;
+}
+
+li > button{
+    float: right;
+    font-size: 15px;
+    border: none;
+    background: none;
+}
+
+li > button:hover{
+    font-weight: bold;
+    background: black;
+    color: white;
+}
+
+.delete {
+	display: none;
+}

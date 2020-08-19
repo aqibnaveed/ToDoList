@@ -1,0 +1,42 @@
+<html>
+    <head>
+        <title>
+            To Do List
+        </title>
+
+        <!-- Bootstrap -->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+        <!-- CSS Style Sheet -->
+        <link rel="stylesheet" type="text/css" href="style.css">
+
+        <!-- Font Awesome Icons Library -->
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
+
+    </head>
+
+    <body>
+        <div class="container">
+            <h1>TO DO LIST CREATOR</h1>
+
+            <div class="description">
+                <p>
+                    Add the tasks you have to perform one by one in the list.<br>
+                    After completing each task you can remove that task by tapping "X" below.
+                </p>
+            </div>
+
+            <div class="add_item">
+                <input type="text" name="NewItem" id="input" placeholder="Add New Item" >
+                <button id="addItemBtn"><i class="fas fa-plus"></i></button>
+            </div>
+
+            <div class="ul_list">
+                <ul id="ulElement"></ul>
+            </div>
+        </div>
+
+        <script type="text/javascript" src="script.js"></script>
+        
+    </body>
+</html>
